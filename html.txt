@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+head: funcion de html <meta charset=UTF-8 />, tamaño página: 
+<meta name="viewpoint" content="width=.../>, descripcion pag google, title, tam imag css
+
+body: header, main:section:img:src(source="./"), alt("descripcion");figcaption, footer-derechos reservados
+
+body-main-section-
+<video src="./Episodio4.m4v#t=10,60"controls preload="auto"></video>
+//#t=10,60 hace que empiece en seg 10 hasta el 60
+//controls es atributo para ver botones de dar play en video, que no se le asigna valor, hay otros atributos que si se les asigna
+//formato m4v; pero podría cambiar formato con diferentes fuentes con etiqueta source en la que pongo todos los formatos que tengo y el navegador renderiza el primero que tenga, sí no lo conoce, toma al siguiente:
+<video controls preload="auto">
+	<source> src="./Episodio4.m4v#t=10,60"</source>
+	<source> src="./Episodio4.m4v#t=10,60"</source>
+</video>
+
+para poder modificar cosas se hacen contenedores div
+eje: <div> <input type="text"> </div>; pero para img se usa <figure> para modificar eje tamaño img para darle nombre abajo imagen se escribe figcaption Es una imagen perrito
+asi encapsula imagen, es una etiqueta de img
+
+index es buscador -pagina principal a la que accede google
+
+section es brazo-div dedos
+todo en una misma carpeta-video q usaré
+
+
+FORMULARIOS se relaciona a BACKEND 
+body> 
+	<form>	
+		<label for="nombre"
+			<span> cual es tu nombre</span>
+			<input type="text" id="nombre"/>  
+		</label>
+		<label for="inicio-platzi"
+			<span> que dia empezaste?</span>
+			<input type="date" id="inicio-platzi"/>  			</label>
+		<label for="horario"
+			<span> que dia empezaste?</span>
+			<input type="time" id="horario"/>  
+		</label>
+	</form>	
+</body>
+
+estatica y dinámica conectada a base de datos
+
+framework de Bootstrap-plantillas=funciones ya escritas
+frameworks de javascript: angulart, riact-convertir a app celu- y view
+framework es diferente a librerias tiene muchos metodos;pero framk es mas pesado pq tiene código propio
+conectarlo con api, app, boton de inicio de sesion-funcionalidad con javascript
+PHP, JS
